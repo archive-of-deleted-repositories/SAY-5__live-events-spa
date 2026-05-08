@@ -1,0 +1,48 @@
+# Node / pnpm
+node_modules/
+**/node_modules/
+.pnpm-store/
+pnpm-debug.log*
+npm-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+target/
+*.class
+*.jar
+*.war
+
+# Vite / Vitest
+.vite/
+coverage/
+.nyc_output/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+**/playwright/.cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS / misc
+Thumbs.db
+
+# Maven wrapper noise
+.mvn/wrapper/maven-wrapper.jar
