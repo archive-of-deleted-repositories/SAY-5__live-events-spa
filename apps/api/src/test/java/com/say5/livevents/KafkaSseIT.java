@@ -55,6 +55,7 @@ class KafkaSseIT {
     @DynamicPropertySource
     static void overrides(DynamicPropertyRegistry registry) {
         registry.add("livevents.kafka.topic", () -> "events.live");
+        registry.add("spring.kafka.consumer.auto-offset-reset", () -> "earliest");
     }
 
     @Autowired
